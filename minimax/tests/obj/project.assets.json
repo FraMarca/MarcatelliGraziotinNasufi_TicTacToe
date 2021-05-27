@@ -3521,19 +3521,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\franc\\.nuget\\packages\\": {}
+    "C:\\Users\\nicol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\tests\\tests.csproj",
+      "projectUniqueName": "C:\\Users\\nicol\\Desktop\\minimax\\tests\\tests.csproj",
       "projectName": "tests",
-      "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\tests\\tests.csproj",
-      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\tests\\obj\\",
+      "projectPath": "C:\\Users\\nicol\\Desktop\\minimax\\tests\\tests.csproj",
+      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicol\\Desktop\\minimax\\tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3547,8 +3547,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\Minimax\\Minimax.csproj": {
-              "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\Minimax\\Minimax.csproj"
+            "C:\\Users\\nicol\\Desktop\\minimax\\Minimax\\Minimax.csproj": {
+              "projectPath": "C:\\Users\\nicol\\Desktop\\minimax\\Minimax\\Minimax.csproj"
             }
           }
         }

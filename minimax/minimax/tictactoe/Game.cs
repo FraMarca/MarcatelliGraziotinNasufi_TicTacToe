@@ -9,7 +9,22 @@ namespace minimax.tictactoe
     {
         public List<Action> GetActions(State state)
         {
-            throw new NotImplementedException();
+            List<Action> action = new List<Action>();
+            Action tmp;
+            int[,] campo = state.campo;
+            Player giocatoreCorrente = state.giocatoreCorrente;
+            for (int row = 0; row < 3; row++)
+            {
+                for (int col = 0; col < 3; col++)
+                {
+                    if (campo[row, col] == -1)
+                    {
+                        tmp = new Action(row, col);
+                        action.Add(tmp);
+                    }
+                }
+            }
+            return action;
         }
 
         public State GetInitialState()
@@ -49,7 +64,58 @@ namespace minimax.tictactoe
 
         public double GetUtility(State state, Player player)
         {
-            throw new NotImplementedException();
+            int winner = ControllaVincitore(state);
+            if (IsTerminal(state))
+            {
+                if (winner == (int)player)
+                {
+                    return double.PositiveInfinity - 1;
+                }
+                else if (winner == -1)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return double.NegativeInfinity + 1;
+                }
+            }
+
+            if (state.GetBoardState(1, 1) == (int)player)
+            {
+                return 2;
+            }
+            else if (state.GetBoardState(1, 1) != (int)player && state.GetBoardState(1, 1) != -1)
+            {
+                return -2;
+            }
+
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    if (state.campo[i, 0] != -1)
+            //    {
+            //        if ((state.GetBoardState(i, 0) == (int)player && state.GetBoardState(i, 1) == (int)player) || (state.GetBoardState(i, 1) == (int)player && state.GetBoardState(i, 2) == (int)player))
+            //        {
+            //            return 7;
+            //        }
+            //        else if ((state.GetBoardState(i, 0) != (int)player && state.GetBoardState(i, 0) != -1) || (state.GetBoardState(i, 2) != (int)player && state.GetBoardState(i, 2) != -1))
+            //        {
+            //            return -7;
+            //        }
+            //    }
+            //    if (state.campo[0, i] != -1)
+            //    {
+            //        if ((state.GetBoardState(0, i) == (int)player && state.GetBoardState(1, i) == (int)player) || (state.GetBoardState(1, i) == (int)player && state.GetBoardState(2, i) == (int)player))
+            //        {
+            //            return 7;
+            //        }
+            //        else if ((state.GetBoardState(0, i) != (int)player && state.GetBoardState(0, i) != -1) || (state.GetBoardState(2, i) != (int)player && state.GetBoardState(2, i) != -1))
+            //        {
+            //            return -7;
+            //        }
+            //    }
+            //}
+            return 0;
         }
 
         public bool IsTerminal(State state)
