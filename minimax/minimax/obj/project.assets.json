@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\franc\\.nuget\\packages\\": {}
+    "C:\\Users\\nicol\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax-csharp-main\\minimax\\Minimax\\Minimax.csproj",
+      "projectUniqueName": "C:\\Users\\nicol\\Desktop\\minimax\\Minimax\\Minimax.csproj",
       "projectName": "Minimax",
-      "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax-csharp-main\\minimax\\Minimax\\Minimax.csproj",
-      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax-csharp-main\\minimax\\Minimax\\obj\\",
+      "projectPath": "C:\\Users\\nicol\\Desktop\\minimax\\Minimax\\Minimax.csproj",
+      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nicol\\Desktop\\minimax\\Minimax\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

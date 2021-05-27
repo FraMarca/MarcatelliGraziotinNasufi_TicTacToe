@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D5yXNc+9vP0cGilX7p+WRqN2gfG4UFn9WQMWdqX9eXjLs77W3ak1I48UFoNffF4QYlVR+f3LbHXHy3jY7lfmSA==",
+  "dgSpecHash": "//Q+1gR3PK91SrvVejCodbCYXbTHXaFTjqbJvw01B40fWlUgZC0LtAzwRRAJARRQ1LbHiEl4vUQ9tco9ZXK1tQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax-csharp-main\\minimax\\Minimax\\Minimax.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\Desktop\\minimax\\Minimax\\Minimax.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
