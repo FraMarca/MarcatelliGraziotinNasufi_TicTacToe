@@ -29,17 +29,31 @@ namespace minimax.tictactoe
 
         public State GetInitialState()
         {
-            throw new NotImplementedException();
+            State state = new State();
+
+            int[,] campo = new int[3, 3];
+            for (int row = 0; row < 3; row++)
+            {
+                for (int col = 0; col < 3; col++)
+                {
+                    campo[row, col] = -1;
+                }
+            }
+
+            Player giocatoreCorrente = Player.Cross;
+
+            return state;
         }
 
         public Player GetPlayer(State state)
         {
-            throw new NotImplementedException();
+            return state.giocatoreCorrente;
         }
 
         public Player[] GetPlayers()
         {
-            throw new NotImplementedException();
+            Player[] players = new Player[2] { Player.Cross, Player.Circle };
+            return players;
         }
 
         public State GetResult(State state, Action action)
