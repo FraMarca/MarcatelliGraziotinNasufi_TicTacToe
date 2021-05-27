@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nasuf\\Desktop\\minimax\\tests\\tests.csproj": {}
+    "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\tests\\tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nasuf\\Desktop\\minimax\\Minimax\\Minimax.csproj": {
+    "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\Minimax\\Minimax.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nasuf\\Desktop\\minimax\\Minimax\\Minimax.csproj",
+        "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\Minimax\\Minimax.csproj",
         "projectName": "Minimax",
-        "projectPath": "C:\\Users\\nasuf\\Desktop\\minimax\\Minimax\\Minimax.csproj",
-        "packagesPath": "C:\\Users\\nasuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nasuf\\Desktop\\minimax\\Minimax\\obj\\",
+        "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\Minimax\\Minimax.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\Minimax\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nasuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nasuf\\Desktop\\minimax\\tests\\tests.csproj": {
+    "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\tests\\tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nasuf\\Desktop\\minimax\\tests\\tests.csproj",
+        "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\tests\\tests.csproj",
         "projectName": "tests",
-        "projectPath": "C:\\Users\\nasuf\\Desktop\\minimax\\tests\\tests.csproj",
-        "packagesPath": "C:\\Users\\nasuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nasuf\\Desktop\\minimax\\tests\\obj\\",
+        "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\tests\\tests.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nasuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,9 +80,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\nasuf\\Desktop\\minimax\\Minimax\\Minimax.csproj": {
-                "projectPath": "C:\\Users\\nasuf\\Desktop\\minimax\\Minimax\\Minimax.csproj"
+              "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\Minimax\\Minimax.csproj": {
+                "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\minimax\\Minimax\\Minimax.csproj"
               }
             }
           }
@@ -93,6 +96,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -126,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -25,7 +25,28 @@ namespace minimax.tictactoe
                 string mossa = Console.ReadLine();
                 string[] mosse = mossa.Split(' ');
                 Action move = new Action(Convert.ToInt32(mosse[0]), Convert.ToInt32(mosse[1]));
-            } while (!game.IsTerminal(state));
+
+                availableActions = game.GetActions(state);
+                int ctrl = state.GetBoardState(move.row, move.col);
+
+                if (ctrl == -1)
+                {
+                    state = game.GetResult(state, move);
+                    PrintBoardState(state);
+                    double vantaggio = game.GetUtility(state, Player.Cross);
+                    Console.WriteLine(vantaggio);
+                }
+
+                if (!game.IsTerminal(state))
+                {
+                    adversarialSearch = new MinimaxSearchLimited<State, Action, Player>(game, livello);
+                    Action enemieMove = adversarialSearch.makeDecision(state);
+                    state = game.GetResult(state, enemieMove);
+                    PrintBoardState(state);
+                    double vantaggioAvversario = game.GetUtility(state, Player.Cross);
+                    Console.WriteLine(vantaggioAvversario);
+                }
+            }while (!game.IsTerminal(state));
         }
         public static void PrintBoardState(State state)
         {

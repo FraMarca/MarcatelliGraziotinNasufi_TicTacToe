@@ -1,0 +1,13 @@
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\bin\Debug\netcoreapp3.1\Minimax.exe
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\bin\Debug\netcoreapp3.1\Minimax.deps.json
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\bin\Debug\netcoreapp3.1\Minimax.runtimeconfig.json
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\bin\Debug\netcoreapp3.1\Minimax.runtimeconfig.dev.json
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\bin\Debug\netcoreapp3.1\Minimax.dll
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\bin\Debug\netcoreapp3.1\Minimax.pdb
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\obj\Debug\netcoreapp3.1\Minimax.csprojAssemblyReference.cache
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\obj\Debug\netcoreapp3.1\Minimax.AssemblyInfoInputs.cache
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\obj\Debug\netcoreapp3.1\Minimax.AssemblyInfo.cs
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\obj\Debug\netcoreapp3.1\Minimax.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\obj\Debug\netcoreapp3.1\Minimax.dll
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\obj\Debug\netcoreapp3.1\Minimax.pdb
+C:\Users\franc\OneDrive\Desktop\minimax\Minimax\obj\Debug\netcoreapp3.1\Minimax.genruntimeconfig.cache
